@@ -22,7 +22,7 @@ spec:
 
 
       - pathType: Prefix
-        path: /chirag(/|$)(.*)
+        path: /node(/|$)(.*)
         backend:
           service:
             name: nodesvc
